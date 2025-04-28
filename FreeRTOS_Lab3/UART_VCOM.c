@@ -102,6 +102,6 @@ void send_UART_message(char * txData,Ifx_SizeT count)
 //    {
 //        count ++;
 //    }
-    count ++; /* to include the termination character */
+//    count ++; /* to include the termination character */
     IfxAsclin_Asc_write(&g_asc, txData, &count, TIME_INFINITE);         /* Transfer of data                         */
 }
