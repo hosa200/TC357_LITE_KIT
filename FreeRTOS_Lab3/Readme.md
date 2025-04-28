@@ -6,6 +6,8 @@ This lab demonstrate the critical section usage and task suspend usage to acheiv
 
 2) Free RTOS v202406.01-LTS
 
+3) ADS(Aurix Development Environment) IDE
+
 # Usage:
 T_Count task is incrementing two global vars x and y
 
